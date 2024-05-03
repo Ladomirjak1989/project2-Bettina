@@ -1,0 +1,45 @@
+.cont-404 {
+    background: url('../../assets/notbackground.webp') no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+
+
+}
+
+.notfound-text {
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notfound-title {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.notfound-subtitle {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #000;
+
+}
+
+.btn-style-404 {
+    padding: 15px 20px;
+    background-color: rgb(168, 174, 172);
+    border: none;
+    border-radius: 12px;
+    color: #191717;
+    transition: 0.3s;
+    font-size: medium;
+    font-weight: bold;
+
+
+}
+
+.btn-style-404:hover {
+    background-color: rgb(149, 155, 149);
+}

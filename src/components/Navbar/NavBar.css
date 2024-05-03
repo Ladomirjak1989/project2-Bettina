@@ -1,0 +1,28 @@
+.logo-style {
+    width: 150px;
+    
+}
+.title {
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgb(201, 185, 164);
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.logout-style {
+    background-color: rgb(43, 240, 240);
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}

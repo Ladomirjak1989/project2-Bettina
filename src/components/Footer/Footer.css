@@ -1,0 +1,92 @@
+.footer-part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(221, 206, 187);
+}
+
+.footer-fontsize {
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+
+.send-recomend {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+
+
+}
+
+.footer-new-box-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-newbox-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.send-input {
+    margin: 0;
+    border: solid 2px #000;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.footer-newbox-list p:hover {
+    text-decoration: underline;
+
+
+
+}
+
+.footer-send-btn {
+    height: 40px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(133, 137, 137);
+
+}
+.footer-send-btn:hover {
+background-color: rgb(198, 192, 192);
+}
+
+
+.footer-newbox {
+    background-color: rgb(201, 185, 164);
+
+}
+
+
+
+.footer-copyryt {
+    height: 50px;
+    background-color: rgb(201, 185, 164);
+
+}
+
+.footer-copyryt span {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 80px;
+}
+
+.youtube {
+    font-size: 30px;
+    color: red;
+}
+.google {
+    font-size: 30px;
+    color: red;
+}

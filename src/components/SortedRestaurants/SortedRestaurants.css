@@ -1,0 +1,38 @@
+.sorted-container {
+    margin-top: 20px;
+    margin-left: 160px;
+  }
+  
+  .sorted-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 200px ;
+    background-color: #fdfbfb;
+    box-sizing: border-box;
+   
+
+  }
+  
+  .sorted-subtitle {
+    font-weight: bold;
+  }
+  
+  .sorted-restaurants-form {
+    margin-top: 20px;
+  }
+  
+  .sorted-restaurants-label {
+width: 70%;
+  }
+  
+  .sorted-restaurants-input {
+  }
+ .input-li {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+ }
+ input {
+    margin: 0%;
+ }
