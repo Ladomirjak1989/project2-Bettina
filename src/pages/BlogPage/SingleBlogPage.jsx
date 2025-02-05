@@ -13,7 +13,7 @@ const SingleBlogPage = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    fetch(`https://project2-backend.adaptable.app/articles/${blogId}`)
+    fetch(`http://localhost:5002/articles/${blogId}`)
       .then(response => response.json())
       .then(data => {
         setBlogPost(data);
@@ -35,7 +35,7 @@ const SingleBlogPage = () => {
   const handleUpdateArticle = (updatedArticle) => {
     // Logic to update the article on the server
     // After successful update, set the updated blog post data and exit editing mode
-    fetch(`https://project2-backend.adaptable.app/articles/${blogId}`, {
+    fetch(`http://localhost:5002/articles/${blogId}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ const SingleBlogPage = () => {
 
   const handleDelete = (e) => {
     e.preventDefault()
-    fetch(`https://project2-backend.adaptable.app/articles/${blogId}`, {
+    fetch(`http://localhost:5002/articles/${blogId}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',

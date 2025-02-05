@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { FaLockOpen } from "react-icons/fa";
 
-const API_URL = 'https://restaurant-beckend.adaptable.app'
+const API_URL = 'https://restaurant-backend-81ace9da1044.herokuapp.com'
 
 const RegisterPage = ({ handlerUser }) => {
     const navigate = useNavigate();

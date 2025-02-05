@@ -12,7 +12,7 @@ const BlogDetailsPage = ({user}) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('https://project2-backend.adaptable.app/articles')
+    fetch('http://localhost:5002/articles')
       .then(response => response.json())
       .then(data => {
         setArticles(data);
@@ -27,7 +27,7 @@ const BlogDetailsPage = ({user}) => {
    }
 
   const handleAddArticle = (newArticle) => {
-    fetch('https://project2-backend.adaptable.app/articles', {
+    fetch('http://localhost:5002/articles', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

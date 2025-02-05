@@ -24,7 +24,7 @@ const RestaurantDetailsPage = () => {
 
   const options = {
     method: 'GET',
-    url: `https://project-2-back-end2.adaptable.app/restaurants/${restaurantId}`,
+    url: `http://localhost:5002/restaurants/${restaurantId}`,
 
     headers: {
       // 'Authorization': 'Bearer etUZ3WYi8nfnjU2OB6SqQsFsA91R0-tThuzbgOaeaC2zcTWjt4a26Owz317kieHFNgh9cvLwKwPbFxMlpTh1KDxZihtNOlsfPonbbKNB2Dx7KkylY3DgRCe9VlgaZnYx'

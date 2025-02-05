@@ -9,7 +9,7 @@ import SearchBar from '../../components/SearchBar/SearchBar'
 
 
 
-const API_URL = 'https://restaurant-beckend.adaptable.app'
+const API_URL = 'https://restaurant-backend-81ace9da1044.herokuapp.com'
 
 const CityDetails = () => {
   const navigate = useNavigate();

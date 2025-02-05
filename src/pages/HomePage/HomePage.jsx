@@ -18,7 +18,8 @@ const HomePage = () => {
         const userCity = locationData.city;
         setUserCity(userCity);
 
-        const serverUrl = 'https://project-2-back-end2.adaptable.app';
+        const serverUrl = 'http://localhost:5002';
+        //project-2-back-end2.adaptable.app
         const params = new URLSearchParams({
           location: userCity,
         });

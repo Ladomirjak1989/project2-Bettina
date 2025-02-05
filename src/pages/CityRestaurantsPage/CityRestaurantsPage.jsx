@@ -13,7 +13,7 @@ const CityRestaurantsPage = () => {
 
   const options = {
     method: 'GET',
-    url: 'https://project-2-back-end2.adaptable.app',
+    url: 'http://localhost:5002',
     params: {
       location: cityName
     },
